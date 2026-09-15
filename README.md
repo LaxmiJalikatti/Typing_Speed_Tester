@@ -49,6 +49,9 @@ A modern and interactive Typing Speed Tester built using **HTML, CSS, and JavaSc
 
 ---
 
+## Live Demo
+- https://laxmijalikatti.github.io/Typing_Speed_Tester/
+
 ## 📚 Concepts Practiced
 
 This project helped me practice:
