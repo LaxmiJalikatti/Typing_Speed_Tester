@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Tester</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1 id="heading">Typing Speed Tester</h1>
+        <h3 id="subheading">Paragraph to type</h3>
+        <h3 id="currentLevelText">Current Level: 1</h3>
+        <p id="para">JavaScript is a powerful language used for web development.</p>
+        <textarea id="type" rows="4" placeholder="Start typing here..."></textarea>
+
+        <div class="stats">
+            <p class="stat-box">Time Left: <span id="time-left">30</span>s</p>
+            <p class="stat-box">WPM: <span id="wpm">0</span></p>
+            <p class="stat-box">Mistakes: <span id="mistakes">0</span></p>
+            <p class="stat-box">Accuracy: <span id="accuracy">100</span>%</p>
+        </div>
+
+        <button id="restart">Restart</button>
+
+        <div id="level">
+            <button class="level-btn" id="level1">level-1</button>
+            <button class="level-btn" id="level2">level-2</button>
+            <button class="level-btn" id="level3">level-3</button>
+            <button class="level-btn" id="level4">level-4</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
